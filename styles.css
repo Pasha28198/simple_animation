@@ -1,0 +1,195 @@
+.path {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: dash 10s linear forwards 2s;
+}
+
+.point {
+  opacity: 0;
+  animation: fadeIn 1s linear forwards 8s;
+}
+
+.white_line_transformation {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: dash 5s linear forwards 6s;
+}
+
+.white_line_backpropagation {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: dash 5s linear forwards 3.5s;
+}
+
+.shadow_line {
+  opacity: 0;
+  animation: fadeIn 1s linear forwards 8.2s;
+}
+
+.text_animation_transformation {
+  opacity: 0;
+  transform: translateY(60px);
+  animation: popup 1s linear forwards 6s;
+}
+
+.text_animation_backpropagation {
+  opacity: 0;
+  transform: translateY(60px);
+  animation: popup 1s linear forwards 3.5s;
+}
+
+.squere_backpropagation {
+  opacity: 0;
+  animation: fadeIn 1s linear forwards 2.5s;
+}
+
+.target {
+  opacity: 0;
+  animation: fadeIn 3s linear forwards 8s;
+}
+
+.target_line {
+  opacity: 0;
+  transform: translateX(-60px);
+  animation: leftslide 1s linear forwards 8s;
+}
+
+.targetTextPlace {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: popup 2s linear forwards 8.2s;
+}
+
+.corner {
+  opacity: 0;
+  animation: fadeIn 2s linear forwards 8.7s;
+}
+
+.corner_top_left {
+  opacity: 0;
+  transform: translate(70px, -70px);
+  animation: backtostartcornerposition 2s linear forwards 8s;
+}
+
+.corner_top_right {
+  opacity: 0;
+  transform: translate(-70px, -70px);
+  animation: backtostartcornerpositionTopRight 2s linear forwards 8s;
+}
+
+.corner_bottom_left {
+  opacity: 0;
+  transform: translate(70px, 70px);
+  animation: backtostartcornerpositionBottomLeft 2s linear forwards 8s;
+}
+
+.corner_bottom_right {
+  opacity: 0;
+  transform: translate(-70px, 70px);
+  animation: backtostartcornerpositionBottomRight 2s linear forwards 8s;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes squeryFadeIn {
+  to {
+    opacity: 1;
+    margin-left: 0;
+    /* transform: scale(1); */
+  }
+}
+
+@keyframes targetAnimation {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes wiggleWiggle {
+  20%,
+  100% {
+    transform: translate(
+      0,
+      2px
+    ); /* stay on the baseline for most of the animation duration */
+  }
+
+  0% {
+    transform: translate(0, 0px); /* hop up */
+  }
+  10% {
+    transform: translate(0, 2px); /* return to baseline */
+  }
+}
+
+@keyframes popup {
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes leftslide {
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes backtostartcornerposition {
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes backtostartcornerpositionTopRight {
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes backtostartcornerpositionBottomLeft {
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes backtostartcornerpositionBottomRight {
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+
