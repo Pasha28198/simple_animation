@@ -10,16 +10,34 @@
   <title>Animation</title>
 </head>
 
+<style>
+  .wrapper{
+    background: url('./backgroud_map.png') right 4px bottom 18px, url('./8grid.png') right 4px bottom 16px ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 700px;
+    max-height: 700px;
+  
+  }
+  @media (max-width:490px){  
+    .wrapper{
+      background: url('./backgroud_map.png') right 4px bottom 13px, url('./8grid.png') right 4px bottom 13px ;
+      background-size: contain;
+      background-repeat: no-repeat;
+  }}
+  @media (max-width:350px){  
+    .wrapper{
+      background: url('./backgroud_map.png') right 2px bottom 12px, url('./8grid.png') right 2px bottom 12px ;
+      background-size: contain;
+      background-repeat: no-repeat;
+  }}
+</style>
+
 <body style="background-image: url(./background.jpeg);">
-  <div style="
-  background: url('./backgroud_map.png') -5px 76px, url('./8grid.png') -10px 76px ;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 700px;
-  height: 700px;
-  ">
+  <div class="wrapper" >
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="700" height="700" viewBox="-3075.6 -2789.2 3480.7 3069" xmlns="http://www.w3.org/2000/svg"
+<svg viewBox="-3075.6 -2789.2 3480.7 3069" xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink">
   <g transform="matrix(1.3333 0 0 -1.3333 -3050.2 160.21)">
     <g clip-path="url(#clipPath3160)">
