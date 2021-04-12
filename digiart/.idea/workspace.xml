@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9cf19055-481a-4022-9c02-8ab1071d7cd3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../8grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backgroud_map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../background.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiggiArt-admin" beforeDir="false" afterPath="$PROJECT_DIR$/DiggiArt-admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiggiArt-admin/src/components/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/DiggiArt-admin/src/components/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diggiart-api" beforeDir="false" afterPath="$PROJECT_DIR$/diggiart-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diggiart-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/diggiart-api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diggiart-api/app/controllers/admin.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/diggiart-api/app/controllers/admin.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diggiart-api/app/lib/emails.js" beforeDir="false" afterPath="$PROJECT_DIR$/diggiart-api/app/lib/emails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diggiart-api/app/lib/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/diggiart-api/app/lib/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diggiart-react" beforeDir="false" afterPath="$PROJECT_DIR$/diggiart-react" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../styles.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1r4qG930khhPcGc6VHpONcdNIvr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/diggiart-react/node_modules/stylelint" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cf19055-481a-4022-9c02-8ab1071d7cd3" name="Default Changelist" comment="" />
+      <created>1618245610991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618245610991</updated>
+      <workItem from="1618245612129" duration="1315000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-2019" y="496" width="598" height="476" key="find.popup" timestamp="1618246140924">
+      <screen x="-3440" y="0" width="3440" height="1440" />
+    </state>
+    <state x="-2019" y="496" width="598" height="476" key="find.popup/-3440.0.3440.1440/0.0.1680.1050@-3440.0.3440.1440" timestamp="1618246140924" />
+  </component>
+</project>
